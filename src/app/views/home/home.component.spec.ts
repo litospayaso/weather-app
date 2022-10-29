@@ -2,8 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { HomeComponent } from './home.component';
-import { ApiErrorResponse, Location } from '@app/interfaces/broadcast-interface';
-import expect from 'jasmine-expect';
+import { ApiErrorResponse, Location } from '../../interfaces/broadcast-interface';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;

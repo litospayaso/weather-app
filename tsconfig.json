@@ -22,6 +22,10 @@
       "es2020",
       "dom"
     ],
+    "types": [
+      "jasmine",
+      "jasmine-expect"
+    ],
     "paths": {
       "@app/*": ["src/app/*"],
       "@api/*": ["src/app/api/*"],
@@ -38,4 +42,8 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
 }
