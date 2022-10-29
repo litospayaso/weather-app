@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test --include=src/**/*.spec.ts",
     "deploy": "ng deploy --base-href=/weather-app/",
+    "cypress:open": "npx cypress open",
     "compodoc": "npx compodoc -p tsconfig.doc.json"
   },
   "private": true,

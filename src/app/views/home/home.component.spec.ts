@@ -35,4 +35,9 @@ describe('HomeComponent', () => {
     expect(component.loading).toBe(false);
   });
 
+  it('should have the default properties', () => {
+    component.search();
+    expect(component.loading).toBe(true);
+  });
+
 });
