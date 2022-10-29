@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 
 const routes: Routes = [
-  { path: 'weather-app', component: HomeComponent },
-  { path: '**', redirectTo: '/weather-app' }
+  { path: '', component: HomeComponent },
+  { path: '**', redirectTo: '/' }
 ];
 
 @NgModule({
