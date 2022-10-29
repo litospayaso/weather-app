@@ -1,6 +1,9 @@
 import {Location} from '@interfaces/broadcast-interface';
 
-export interface Forecast {
+/**
+ * @ignore
+ */
+ export interface Forecast {
   dt: number;
   dt_txt: string;
   temp: number;
@@ -8,7 +11,10 @@ export interface Forecast {
   icon: string;
 }
 
-export interface ApiGeneralResponse {
+/**
+ * @ignore
+ */
+ export interface ApiGeneralResponse {
   forecast: Forecast[];
   location: Location;
 }

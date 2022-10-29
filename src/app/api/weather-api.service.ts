@@ -21,20 +21,12 @@ export class WeatherApiService {
   ) {
   }
   /**
-   * Searchs for a city/country in the database.
-   * @param {string} name name of the city to query.
-   * @returns http response
-   */
-  findPlace(name?: string): Observable<Object> {
-    return this.weatherService.get(`/find?q=${name}`);
-  }
-  /**
    * Get the forecast for a city.
    * @param {string} name name of the city to query.
-   * @returns http response
+   * @returns http response formatted as forecasts array
    */
   getForecast(name?: string): Observable<ApiGeneralResponse> {
-    const request = this.weatherService.get(`/forecast?q=${name}&units=metric`) as Observable<ApiBroadcastResponse>
+    const request = this.weatherService.get(`/forecast?q=${name}&units=metric`);
     return request.pipe(map(({ city, list }) => {
       return {
         location: city,

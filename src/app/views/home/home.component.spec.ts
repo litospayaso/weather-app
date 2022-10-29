@@ -4,6 +4,12 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { HomeComponent } from './home.component';
 import { ApiErrorResponse, Location } from '../../interfaces/broadcast-interface';
 
+const weatherApiService = ()=>{
+  return new Promise((resolve, reject) => {
+    resolve()
+  });
+}
+
 describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
@@ -37,6 +43,11 @@ describe('HomeComponent', () => {
 
   it('should change the properties when we call search function', () => {
     component.search();
+    expect(component.loading).toBe(true);
+  });
+
+  it('should change the properties when we call search function', () => {
+    component.weatherApiService = () => {};
     expect(component.loading).toBe(true);
   });
 

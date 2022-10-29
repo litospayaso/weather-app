@@ -1,6 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Forecast } from '@app/interfaces/forecast-interface';
 
+/**
+ * Component for display the forecast data
+ */
 @Component({
   selector: 'app-forecast',
   templateUrl: './forecast.component.html',
@@ -8,12 +11,24 @@ import { Forecast } from '@app/interfaces/forecast-interface';
 })
 export class ForecastComponent implements OnInit {
 
+  /**
+   * Forecast to display
+   */
   @Input() forecast: Forecast = undefined as unknown as Forecast;
+  /**
+   * Var to check the format to display the date
+   */
   @Input() showHours: boolean = true;
 
+  /**
+ * @ignore
+ */
   constructor() { }
 
-  ngOnInit(): void {
+  /**
+ * @ignore
+ */
+    ngOnInit(): void {
   }
-
+     
 }

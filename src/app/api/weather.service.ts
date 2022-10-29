@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpEvent, HttpHeaders } from '@angular/common/http';
 import { environment } from '@environments/environment';
 import { Observable } from 'rxjs';
+import { ApiBroadcastResponse } from '@app/interfaces/broadcast-interface';
 
 /**
- * Services for User  http API
+ * Services for weather API
  */
 @Injectable({
   providedIn: 'root'
@@ -28,11 +29,11 @@ export class WeatherService {
   ) {
   }
   /**
-   * Send a get http request against Nodes API.
+   * Send a get http request against OpenWeatherMap api.
    * @param {string} url for get request .
    * @returns http response
    */
-  get(url: string): Observable<any> {
-    return this.httpClient.get(`${this.API_URL}${url}${url.includes('?')?'&':'?'}appid=${this.token}`);
+  get(url: string): Observable<ApiBroadcastResponse> {
+    return this.httpClient.get(`${this.API_URL}${url}${url.includes('?')?'&':'?'}appid=${this.token}`) as unknown as Observable<ApiBroadcastResponse>;
   }
 }

@@ -1,6 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({
+/**
+ * Pipe to return the icon name based on the id.
+ */
+ @Pipe({
   name: 'icon'
 })
 export class IconPipe implements PipeTransform {

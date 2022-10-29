@@ -1,4 +1,7 @@
-  export interface Main {
+/**
+ * @ignore
+ */
+ export interface Main {
       temp: number;
       feels_like: number;
       temp_min: number;
@@ -10,28 +13,43 @@
       temp_kf: number;
   }
 
-  export interface Weather {
+/**
+ * @ignore
+ */
+ export interface Weather {
       id: number;
       main: string;
       description: string;
       icon: string;
   }
 
-  export interface Clouds {
+/**
+ * @ignore
+ */
+ export interface Clouds {
       all: number;
   }
 
-  export interface Wind {
+/**
+ * @ignore
+ */
+ export interface Wind {
       speed: number;
       deg: number;
       gust: number;
   }
 
-  export interface Sys {
+/**
+ * @ignore
+ */
+ export interface Sys {
       pod: string;
   }
 
-  export interface Broadcast {
+/**
+ * @ignore
+ */
+ export interface Broadcast {
       dt: number;
       main: Main;
       weather: Weather[];
@@ -43,12 +61,18 @@
       dt_txt: string;
   }
 
-  export interface Coord {
+/**
+ * @ignore
+ */
+ export interface Coord {
       lat: number;
       lon: number;
   }
 
-  export interface Location {
+/**
+ * @ignore
+ */
+ export interface Location {
       id: number;
       name: string;
       coord: Coord;
@@ -59,7 +83,10 @@
       sunset: number;
   }
 
-  export interface ApiBroadcastResponse {
+/**
+ * @ignore
+ */
+ export interface ApiBroadcastResponse {
       cod: string;
       message: number;
       cnt: number;
@@ -67,7 +94,10 @@
       city: Location;
   }
 
-  export interface ApiErrorResponse {
+/**
+ * @ignore
+ */
+ export interface ApiErrorResponse {
     cod: number;
     message: string;
   }
