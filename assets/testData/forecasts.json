@@ -1,0 +1,282 @@
+[
+  {
+    "dt": 1667066400,
+    "dt_txt": "2022-10-29 18:00:00",
+    "temp": 20.68,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667077200,
+    "dt_txt": "2022-10-29 21:00:00",
+    "temp": 19.72,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667088000,
+    "dt_txt": "2022-10-30 00:00:00",
+    "temp": 18.29,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667098800,
+    "dt_txt": "2022-10-30 03:00:00",
+    "temp": 17.83,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667109600,
+    "dt_txt": "2022-10-30 06:00:00",
+    "temp": 17.5,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667120400,
+    "dt_txt": "2022-10-30 09:00:00",
+    "temp": 17.52,
+    "description": "light rain",
+    "icon": "10d"
+  },
+  {
+    "dt": 1667131200,
+    "dt_txt": "2022-10-30 12:00:00",
+    "temp": 16.98,
+    "description": "light rain",
+    "icon": "10d"
+  },
+  {
+    "dt": 1667142000,
+    "dt_txt": "2022-10-30 15:00:00",
+    "temp": 16.32,
+    "description": "light rain",
+    "icon": "10d"
+  },
+  {
+    "dt": 1667152800,
+    "dt_txt": "2022-10-30 18:00:00",
+    "temp": 16.47,
+    "description": "light rain",
+    "icon": "10n"
+  },
+  {
+    "dt": 1667163600,
+    "dt_txt": "2022-10-30 21:00:00",
+    "temp": 15.67,
+    "description": "scattered clouds",
+    "icon": "03n"
+  },
+  {
+    "dt": 1667174400,
+    "dt_txt": "2022-10-31 00:00:00",
+    "temp": 15.14,
+    "description": "broken clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667185200,
+    "dt_txt": "2022-10-31 03:00:00",
+    "temp": 15.26,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667196000,
+    "dt_txt": "2022-10-31 06:00:00",
+    "temp": 15.27,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667206800,
+    "dt_txt": "2022-10-31 09:00:00",
+    "temp": 17.3,
+    "description": "overcast clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667217600,
+    "dt_txt": "2022-10-31 12:00:00",
+    "temp": 20.45,
+    "description": "overcast clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667228400,
+    "dt_txt": "2022-10-31 15:00:00",
+    "temp": 19.79,
+    "description": "overcast clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667239200,
+    "dt_txt": "2022-10-31 18:00:00",
+    "temp": 20.02,
+    "description": "light rain",
+    "icon": "10n"
+  },
+  {
+    "dt": 1667250000,
+    "dt_txt": "2022-10-31 21:00:00",
+    "temp": 16.65,
+    "description": "light rain",
+    "icon": "10n"
+  },
+  {
+    "dt": 1667260800,
+    "dt_txt": "2022-11-01 00:00:00",
+    "temp": 15.93,
+    "description": "light rain",
+    "icon": "10n"
+  },
+  {
+    "dt": 1667271600,
+    "dt_txt": "2022-11-01 03:00:00",
+    "temp": 15.71,
+    "description": "light rain",
+    "icon": "10n"
+  },
+  {
+    "dt": 1667282400,
+    "dt_txt": "2022-11-01 06:00:00",
+    "temp": 15.59,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667293200,
+    "dt_txt": "2022-11-01 09:00:00",
+    "temp": 16.03,
+    "description": "overcast clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667304000,
+    "dt_txt": "2022-11-01 12:00:00",
+    "temp": 16.73,
+    "description": "overcast clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667314800,
+    "dt_txt": "2022-11-01 15:00:00",
+    "temp": 17.43,
+    "description": "scattered clouds",
+    "icon": "03d"
+  },
+  {
+    "dt": 1667325600,
+    "dt_txt": "2022-11-01 18:00:00",
+    "temp": 15.15,
+    "description": "few clouds",
+    "icon": "02n"
+  },
+  {
+    "dt": 1667336400,
+    "dt_txt": "2022-11-01 21:00:00",
+    "temp": 14.59,
+    "description": "clear sky",
+    "icon": "01n"
+  },
+  {
+    "dt": 1667347200,
+    "dt_txt": "2022-11-02 00:00:00",
+    "temp": 13.77,
+    "description": "clear sky",
+    "icon": "01n"
+  },
+  {
+    "dt": 1667358000,
+    "dt_txt": "2022-11-02 03:00:00",
+    "temp": 13.37,
+    "description": "broken clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667368800,
+    "dt_txt": "2022-11-02 06:00:00",
+    "temp": 13.42,
+    "description": "broken clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667379600,
+    "dt_txt": "2022-11-02 09:00:00",
+    "temp": 15.55,
+    "description": "few clouds",
+    "icon": "02d"
+  },
+  {
+    "dt": 1667390400,
+    "dt_txt": "2022-11-02 12:00:00",
+    "temp": 18.03,
+    "description": "scattered clouds",
+    "icon": "03d"
+  },
+  {
+    "dt": 1667401200,
+    "dt_txt": "2022-11-02 15:00:00",
+    "temp": 17.8,
+    "description": "few clouds",
+    "icon": "02d"
+  },
+  {
+    "dt": 1667412000,
+    "dt_txt": "2022-11-02 18:00:00",
+    "temp": 15.34,
+    "description": "scattered clouds",
+    "icon": "03n"
+  },
+  {
+    "dt": 1667422800,
+    "dt_txt": "2022-11-02 21:00:00",
+    "temp": 14.93,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667433600,
+    "dt_txt": "2022-11-03 00:00:00",
+    "temp": 14.62,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667444400,
+    "dt_txt": "2022-11-03 03:00:00",
+    "temp": 14.59,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667455200,
+    "dt_txt": "2022-11-03 06:00:00",
+    "temp": 14.34,
+    "description": "overcast clouds",
+    "icon": "04n"
+  },
+  {
+    "dt": 1667466000,
+    "dt_txt": "2022-11-03 09:00:00",
+    "temp": 16.09,
+    "description": "scattered clouds",
+    "icon": "03d"
+  },
+  {
+    "dt": 1667476800,
+    "dt_txt": "2022-11-03 12:00:00",
+    "temp": 17.58,
+    "description": "broken clouds",
+    "icon": "04d"
+  },
+  {
+    "dt": 1667487600,
+    "dt_txt": "2022-11-03 15:00:00",
+    "temp": 17.4,
+    "description": "overcast clouds",
+    "icon": "04d"
+  }
+]
