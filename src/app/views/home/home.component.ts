@@ -44,7 +44,6 @@ export class HomeComponent implements OnInit {
             this.loading = false;
           },
           error: ({ error }: HttpErrorResponse) => {
-            console.log(`%c error`, `background: #df03fc; color: #f8fc03`, error);
             this.error = error;
             this.forecasts = [];
             this.location = undefined as unknown as Location

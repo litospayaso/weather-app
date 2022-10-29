@@ -35,7 +35,7 @@ describe('HomeComponent', () => {
     expect(component.loading).toBe(false);
   });
 
-  it('should have the default properties', () => {
+  it('should change the properties when we call search function', () => {
     component.search();
     expect(component.loading).toBe(true);
   });

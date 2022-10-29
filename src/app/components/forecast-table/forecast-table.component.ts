@@ -22,7 +22,7 @@ export class ForecastTableComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  filter(): Forecast[] {
+  get filter(): Forecast[] {
     let result = this.forecasts.sort((a,b) => {
       if(this.sortingDescendant) {
         return a.dt - b.dt;

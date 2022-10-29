@@ -27,7 +27,7 @@ export class IconPipe implements PipeTransform {
   }
 
   transform(value: string): string {
-    return this.icons[value];
+    return this.icons[value] ? this.icons[value] : '';
   }
 
 }
