@@ -1,0 +1,23 @@
+<div *ngIf="error === undefined && forecasts.length === 0"> Type a city or country to see the upcoming forecast</div>
+<div *ngIf="error !== undefined">
+  {{error.message}}
+</div>
+<div *ngIf="forecasts.length > 0">
+  <div class="title-container">
+    <h1>{{location.name}} - {{location.country}}</h1>
+  </div>
+  <div class="table-element" *ngIf="forecasts !== undefined">
+    <mat-card class="table-header">
+      <div class="table-header">This is the upcoming forecast for the next 5 days</div>
+      <div class="sort-options">
+        <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="changeSorting()" [fontIcon]="sortingDescendant ? 'expand_more' : 'expand_less'"></mat-icon>
+      </div>
+      <div class="sort-options">
+        <mat-slide-toggle [(ngModel)]="showHours"></mat-slide-toggle>
+      </div>
+    </mat-card>
+    <div class="forecasts-container">
+      <app-forecast *ngFor="let forecast of filter()" [forecast]="forecast" [showHours]="showHours"></app-forecast>
+    </div>
+  </div>
+</div>

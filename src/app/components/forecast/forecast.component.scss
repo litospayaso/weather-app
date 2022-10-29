@@ -1,0 +1,13 @@
+.forecast-element {
+  margin: 8px 0;
+  .forecast-container {
+    display: grid;
+    grid-auto-columns: 0.6fr 0.6fr .2fr min-content;
+    grid-auto-flow: column;
+    align-items: center;
+
+    .weather-icon {
+      margin-left: auto;
+    }
+  }
+}

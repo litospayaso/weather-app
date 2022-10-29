@@ -1,0 +1,11 @@
+<mat-card class="forecast-element" *ngIf="forecast !== undefined">
+  <div class="forecast-container">
+    <div class="time" *ngIf="showHours">{{forecast.dt_txt | date: 'EEEE, MMMM d H:mm'}}</div>
+    <div class="time" *ngIf="!showHours">{{forecast.dt_txt | date: 'EEEE, MMMM d'}}</div>
+    <div class="weather-description">{{forecast.description}}</div>
+    <div class="weather-degrees">{{forecast.temp | number: '1.0-0' }}°C</div>
+    <div class="weather-icon">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" [fontIcon]="forecast.icon | icon"></mat-icon>
+    </div>
+  </div>
+</mat-card>

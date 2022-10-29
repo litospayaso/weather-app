@@ -1,0 +1,12 @@
+  <form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>City / country</mat-label>
+      <input id="searchInput" matInput [(ngModel)]="inputSearch" [ngModelOptions]="{standalone: true}" placeholder="Type a city or country" (keyup)="search()">
+    </mat-form-field>
+    <div *ngIf="loading" class="loading">
+      <mat-spinner></mat-spinner>
+    </div>
+    <div *ngIf="!loading">
+      <app-forecast-table [location]="location" [forecasts]="forecasts" [error]="error"></app-forecast-table>
+    </div>
+  </form>
