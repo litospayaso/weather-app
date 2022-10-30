@@ -78,8 +78,8 @@ export class HomeComponent implements OnInit {
           this.forecasts = forecast;
           this.loading = false;
         },
-        error: ({ error }: HttpErrorResponse) => {
-          this.error = error;
+        error: ({ error }: HttpErrorResponse) => {          
+          this.error = error.message ? error : {cod: 500, message:'500 error: Network issues'};
           this.forecasts = [];
           this.location = undefined as unknown as Location
           this.loading = false;
