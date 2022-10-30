@@ -73,7 +73,6 @@ export class HomeComponent implements OnInit {
     if (this.inputSearch) {
       this.weatherApiService.getForecast(this.inputSearch).subscribe({
         next: ({ location, forecast }) => {
-          console.log(`%c forecast`, `background: #df03fc; color: #f8fc03`, forecast);
           this.error = undefined as unknown as ApiErrorResponse;
           this.location = location;
           this.forecasts = forecast;

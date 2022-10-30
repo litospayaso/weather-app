@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
-import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -31,7 +30,6 @@ import { IconPipe } from './pipe/icon.pipe';
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    MatAutocompleteModule,
     MatInputModule,
     MatCardModule,
     MatIconModule,

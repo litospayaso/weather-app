@@ -34,6 +34,10 @@ All documentation is managed via [Compodoc](https://karma-runner.github.io). To 
 npm run compodoc
 ```
 
+## Visual external libraries
+
+This project uses [Angular material](https://material.angular.io/) for displaying main components.
+
 ## API key storage.
 
 The application in order to work, you have to set your API key in the `environments.ts` file:
@@ -46,3 +50,7 @@ The application in order to work, you have to set your API key in the `environme
   API_KEY: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 };
 ```
+
+## Deployment of the application
+
+The application is released through github-pages in [https://litospayaso.github.io/weather-app/](weather-app)

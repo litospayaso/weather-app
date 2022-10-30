@@ -4,6 +4,16 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress"]
+    "types": ["cypress"],
+    "paths": {
+      "@app/*": ["../src/app/*"],
+      "@api/*": ["../src/app/api/*"],
+      "@views/*": ["../src/app/views/*"],
+      "@interfaces/*": ["../src/app/interfaces/*"],
+      "@pipe/*": ["../src/app/pipe/*"],
+      "@environments/*": ["../src/environments/*"],
+      "@testData/*": ["../src/assets/testData/*"],
+      "@components/*": ["../src/app/components/*"]
+    }
   }
 }
