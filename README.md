@@ -14,18 +14,22 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running component tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The run will return the coverage of the tests in the folder `coverage`;
 
 ## Running end-to-end tests
 
 e2e testing is supported by [Cypress](https://www.cypress.io/). You can run the tests with the command
 
 ```bash
-npm run cypress:open
+npm run cypress:e2e:run
 ```
 ## Running component tests
 
-Component testing is also supported by [Cypress](https://www.cypress.io/). You can also run them from the previous command.
+Component testing is also supported by [Cypress](https://www.cypress.io/). You can run them with the command.
+```bash
+npm run cypress:components:run
+```
 
 ## Documentation
 
